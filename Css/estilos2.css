@@ -1,0 +1,99 @@
+body{
+    background: rgb(0, 0, 0);
+    background-image: url(../Imagenes/fondo5.jfif);
+    }
+.titulo{
+        background-color: rgb(226, 183, 200);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+}
+
+.principal{
+        background-color: aliceblue; 
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+}
+.subtitulo{
+    background-color: rgb(226, 183, 200);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.barranav{
+    padding: 28px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: black;
+}
+.boton{
+    text-decoration: none;
+    background-color:rgb(226, 183, 200);
+}
+.barranav :hover{
+    background-color: yellow;
+}
+.barranav :link{
+    color: black;
+}
+.barranav :visited{
+    color: black;
+}
+.header2{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    flex-wrap: wrap;
+    width: 30%;
+}
+.logo{
+    padding: 5px;
+}
+
+.iconossup{
+    padding: 25px;
+}
+
+.rect1{
+    background-color: rgb(223, 214, 202);
+    width: 90%;
+    overflow-y: hidden;
+    padding: 10px;
+    opacity: 0.9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 30px;
+}
+.vid_map{
+    display: flex;
+    justify-content: center;
+}
+aside{
+    width: 40%;
+    background-color: antiquewhite;
+
+}
+footer{
+    background-color: white;
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.iconosinf{
+    padding: 90px;
+}
+.autor{
+    padding: 30px;
+}
+
+        
