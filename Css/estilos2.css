@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
 body{
     background: rgb(0, 0, 0);
-    background-image: url(../Imagenes/fondo5.jfif);
+    background-image: url(../Imagenes/fondo5.jpg);
     }
 .titulo{
         background-color: rgb(226, 183, 200);
@@ -83,6 +84,12 @@ body{
     display: flex;
     justify-content: center;
 }
+@media(max-width: 992px){
+    .mapa{display: none;}
+}
+@media(max-width: 768px){
+    .vid{display: none;}
+}
 aside{
     width: 40%;
     background-color: antiquewhite;
@@ -97,28 +104,28 @@ footer{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
 }
-.iconosinf{
+.iconos_inf{
     padding: 90px;
     object-fit: cover;
     transition: 0.5s;
 }
-.iconosinf :hover{
+.iconos_inf :hover{
     transform: scale(1.5);
 }
 .autor{
     padding: 30px;
 }
-.wp{
-    bottom: 20%;
-    left: 80%;
-    z-index: 2;
-    position: fixed;
-    opacity: 0.8;}
-
-.sorry{
+.sorry_img{
     display: flex;
     justify-content: space-around;
     opacity: 0.9;
-    }
+}
+@media(max-width:575px){
+    .sorry{display: none;}
+}
+@media(min-width:575px){
+    .sorry2{display: none;}
+    
+}   
 
         
