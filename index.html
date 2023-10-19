@@ -6,20 +6,34 @@
     <meta name="author" content="LG">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Css/estilos2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="shortcut icon" href="favicon.png">
     <title>Recetas Pam</title>
 </head>
 <body>
     <h1 class="titulo">Recetas Pam<h1>
-    <header class="principal">
-    <h2 class="subtitulo">Recetas Recomendadas</h2>
-    <div class="barranav">
-        <a class="boton" href= https://franco-3209.github.io/Potrero_Digital/index.html target= "_blank">Cannoli Siciliano</a>
-        <a class="boton" href= https://bencraft0.github.io/bahia-front/ target= "_blank">Pad Thai</a>
-        <a class="boton" href= https://mariadelapaz1.github.io/proyectobahia/ target= "_blank">Fernet con Coca</a>
-        <a class="boton" href= https://andrearosendo.github.io/BahiaFront target= "_blank">CRIWWEL KUCHEN - Torta Alemana</a>
-    </div>
-    </header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="https://franco-3209.github.io/Potrero_Digital/index.html"  target="_blank">Cannoli Siciliano</a>
+              <li class="nav-item">
+                <a class="nav-link" href=https://bencraft0.github.io/bahia-front/ target="_blank">Pad Thai</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://mariadelapaz1.github.io/proyectobahia/" target="_blank">Fernet con Coca</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://andrearosendo.github.io/BahiaFront" target="_blank">CRIWWEL KUCHEN - Torta Alemana</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contactos.html">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
     <br>
     <div class="headercont">
         <header class="header2">
@@ -101,8 +115,47 @@
         <li>Cocine en horno o fritas.</li>
         <li>¡Listo! A Comer!!!</li>
     </div>
-    </section>
+    </section> 
     <br>
+    <div class="row">
+        <div class="col-sm-1 col-md-2 col-lg-3 recetas">
+          <div class="card">
+            <img src="./Imagenes/canelones.jpg" class="card-img-top receta1" alt="Canelones" >
+            <div class="card-body">
+                <h5 class="card-title">Canelones</h5>
+                <a href="https://www.recetasderechupete.com/todas/recetas/pasta-recetas/recetas-de-canelones/" target="_blank" class="btn btn-primary">De Rechupete</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-2 col-lg-3 recetas">
+            <div class="card">
+              <img src="./Imagenes/chorizolentejas.jpg" class="card-img-top receta1" alt="Canelones" >
+              <div class="card-body">
+                  <h5 class="card-title">Chorizo y Lentejas</h5>
+                  <a href="https://www.abc.es/recetasderechupete/receta-de-lentejas-caseras-con-chorizo/939/" target="_blank" class="btn btn-primary">De Rechupete</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-2 col-lg-3 recetas">
+            <div class="card">
+              <img src="./Imagenes/pollo.JPG" class="card-img-top receta1" alt="Canelones" >
+              <div class="card-body">
+                  <h5 class="card-title">Pollo</h5>
+                  <a href="https://www.abc.es/recetasderechupete/todas/recetas/carnes-aves/recetas-con-pollo/" target="_blank" class="btn btn-primary">De Rechupete</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-2 col-lg-3 recetas">
+            <div class="card">
+              <img src="./Imagenes/bizcocho.jpg" class="card-img-top receta1" alt="Canelones" >
+              <div class="card-body">
+                  <h5 class="card-title">Bizcocho</h5>
+                  <a href="https://www.abc.es/recetasderechupete/bizcocho-casero-de-yogur/10463/" target="_blank" class="btn btn-primary">De Rechupete</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
     <footer>
         <iframe class="mapa" width="800" height="200" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5236.2785055408895!2d-62.25815517843918!3d-38.706102378066575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1696051204993!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div class="iconos_inf">
@@ -119,6 +172,7 @@
             <p>LittleBird Productions </p>
             <p>lbproduct@birds.com</p>
         </div> 
-</footer>  
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>  
 </body>
 </html>

@@ -126,6 +126,12 @@ footer{
 @media(min-width:575px){
     .sorry2{display: none;}
     
-}   
+}
+.recetas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
         
